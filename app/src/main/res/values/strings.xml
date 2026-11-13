@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">PR6</string>
+    <string name="app_name">Визитка</string>
+
+    <string name="title_main">Электронная визитка</string>
+    <string name="hint_name">Имя</string>
+    <string name="hint_position">Должность</string>
+    <string name="hint_phone">Телефон</string>
+    <string name="hint_email">E-mail</string>
+    <string name="btn_calc">Рассчитать</string>
+    <string name="btn_next">Далее</string>
+    <string name="img_card_desc">Иллюстрация визитной карточки</string>
+
+    <string name="err_empty_fields">Заполните все поля</string>
+    <string name="err_phone">Телефон: только цифры и «+»</string>
+    <string name="err_email">E-mail должен содержать «@» и точку после неё</string>
+    <string name="msg_cleared">Поля очищены</string>
+    <string name="msg_ok">Данные корректны</string>
+    <string name="msg_result">Визитка готова: %1$s — %2$s</string>
+
+    <string name="title_second">Готовая визитка</string>
+    <string name="label_name">Имя:</string>
+    <string name="label_position">Должность:</string>
+    <string name="label_phone">Телефон:</string>
+    <string name="label_email">E-mail:</string>
+    <string name="btn_share">Поделиться результатом</string>
+    <string name="btn_back">Назад</string>
+    <string name="img_result_desc">Значок готовой визитки</string>
+    <string name="share_chooser">Поделиться через</string>
+    <string name="share_text">Моя визитка: %1$s, %2$s, %3$s, %4$s</string>
+    <string name="no_app_for_share">Нет приложения для отправки</string>
 </resources>
