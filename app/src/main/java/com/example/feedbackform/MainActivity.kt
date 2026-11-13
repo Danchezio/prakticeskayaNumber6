@@ -1,6 +1,9 @@
 package com.example.feedbackform
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -14,6 +17,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.feedbackform.ui.theme.FeedbackFormTheme
 
 class MainActivity : ComponentActivity() {
+    private lateinit var etName: EditText
+    private lateinit var etEmail: EditText
+    private lateinit var etReview: EditText
+    private lateinit var tvCharCount: TextView
+    private lateinit var btnSubmit: Button
+    private lateinit var btnClear: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
