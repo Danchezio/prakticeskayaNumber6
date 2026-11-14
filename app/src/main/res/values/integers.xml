@@ -1,0 +1,6 @@
+<resources>
+    <integer name="price_per_item">250</integer>
+    <integer name="qty_min">1</integer>
+    <integer name="qty_max">10</integer>
+    <integer name="qty_default">1</integer>
+</resources>

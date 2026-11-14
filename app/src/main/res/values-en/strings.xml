@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Product Card</string>
+    <string name="title_main">Product Card</string>
+    <string name="title_second">Order Summary</string>
+    <string name="btn_plus">+</string>
+    <string name="btn_minus">−</string>
+    <string name="btn_calc">Calculate</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="label_qty">Quantity:</string>
+    <string name="label_price">Price per item:</string>
+    <string name="price_value">%1$d ₽</string>
+    <string name="qty_value">%1$d</string>
+    <string name="result_sum">Total: %1$d ₽</string>
+    <string name="second_qty">Quantity: %1$d pcs</string>
+    <string name="second_sum">Total: %1$d ₽</string>
+    <string name="second_status">Order confirmed</string>
+    <string name="second_status_default">Awaiting confirmation</string>
+    <string name="toast_limit_max">Maximum 10 items</string>
+    <string name="toast_limit_min">Minimum 1 item</string>
+    <string name="toast_calc_done">Total calculated</string>
+    <string name="toast_long_press">Fields cleared</string>
+    <string name="cd_product_image">Product image</string>
+    <string name="cd_result_icon">Result icon</string>
+</resources>

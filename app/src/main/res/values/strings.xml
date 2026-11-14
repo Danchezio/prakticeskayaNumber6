@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Карточка товара</string>
+    <string name="title_main">Карточка товара</string>
+    <string name="title_second">Итог заказа</string>
+    <string name="btn_plus">+</string>
+    <string name="btn_minus">−</string>
+    <string name="btn_calc">Рассчитать</string>
+    <string name="btn_next">Далее</string>
+    <string name="btn_back">Назад</string>
+    <string name="btn_confirm">Подтвердить</string>
+    <string name="label_qty">Количество:</string>
+    <string name="label_price">Цена за штуку:</string>
+    <string name="price_value">%1$d ₽</string>
+    <string name="qty_value">%1$d</string>
+    <string name="result_sum">Сумма: %1$d ₽</string>
+    <string name="second_qty">Количество: %1$d шт.</string>
+    <string name="second_sum">Сумма: %1$d ₽</string>
+    <string name="second_status">Заказ подтверждён</string>
+    <string name="second_status_default">Ожидает подтверждения</string>
+    <string name="toast_limit_max">Максимум 10 штук</string>
+    <string name="toast_limit_min">Минимум 1 штука</string>
+    <string name="toast_calc_done">Сумма рассчитана</string>
+    <string name="toast_long_press">Поля очищены</string>
+    <string name="cd_product_image">Изображение товара</string>
+    <string name="cd_result_icon">Значок результата</string>
+</resources>
