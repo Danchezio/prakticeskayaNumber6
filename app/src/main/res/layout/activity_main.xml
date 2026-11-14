@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_medium">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_main"
+            android:textSize="@dimen/text_size_large"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="@dimen/margin_medium" />
+
+        <!-- scaleType = centerCrop, как в варианте -->
+        <ImageView
+            android:id="@+id/ivThermometer"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_thermometer"
+            android:contentDescription="@string/cd_thermometer" />
+
+        <TextView
+            android:id="@+id/tvHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_c"
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <EditText
+            android:id="@+id/etTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:autofillHints="none"
+            android:hint="@string/hint_temperature"
+            android:inputType="numberDecimal|numberSigned"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_secondary"
+            android:layout_marginBottom="@dimen/margin_medium" />
+
+        <CheckBox
+            android:id="@+id/cbDirection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/checkbox_c_to_f"
+            android:checked="true"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="@dimen/margin_medium" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_calculate"
+            android:onClick="onCalculateClick"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="@dimen/margin_medium" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_next"
+            android:onClick="onNextClick" />
+    </LinearLayout>
+</ScrollView>

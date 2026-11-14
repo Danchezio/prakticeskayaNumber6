@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Конвертер температур</string>
+    <string name="title_main">Конвертер температур</string>
+    <string name="hint_temperature">Введите температуру</string>
+    <string name="checkbox_c_to_f">Из °C в °F</string>
+    <string name="btn_calculate">Рассчитать</string>
+    <string name="btn_next">Далее</string>
+    <string name="btn_back">Назад</string>
+    <string name="btn_share">Поделиться результатом</string>
+    <string name="result_format">Результат: %.2f %s</string>
+    <string name="original_format">Исходное значение: %.2f %s</string>
+    <string name="result_second_format">Результат: %.2f %s</string>
+    <string name="share_text_format">Результат конвертации: %.2f %s (исходное: %.2f %s)</string>
+    <string name="hint_c">Введите температуру в °C</string>
+    <string name="hint_f">Введите температуру в °F</string>
+    <string name="error_empty">Введите значение</string>
+    <string name="error_invalid">Введите корректное число</string>
+    <string name="error_below_absolute_zero_c">Температура не может быть ниже -273.15 °C</string>
+    <string name="error_below_absolute_zero_f">Температура не может быть ниже -459.67 °F</string>
+    <string name="cd_thermometer">Термометр</string>
+    <string name="cd_result_icon">Значок результата</string>
+    <string name="unit_c">°C</string>
+    <string name="unit_f">°F</string>
+</resources>

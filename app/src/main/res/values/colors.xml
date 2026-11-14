@@ -1,0 +1,7 @@
+<resources>
+    <color name="background">#FFFFFF</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#666666</color>
+    <color name="accent">#6200EE</color>
+    <color name="icon_tint">#6200EE</color>
+</resources>
