@@ -21,12 +21,13 @@
         <!-- scaleType = centerCrop, как в варианте -->
         <ImageView
             android:id="@+id/ivThermometer"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/image_size"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_medium"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_thermometer"
-            android:contentDescription="@string/cd_thermometer"
-            android:layout_marginBottom="@dimen/margin_medium" />
+            android:contentDescription="@string/cd_thermometer" />
 
         <TextView
             android:id="@+id/tvHint"
@@ -41,6 +42,8 @@
             android:id="@+id/etTemperature"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:autofillHints="none"
             android:hint="@string/hint_temperature"
             android:inputType="numberDecimal|numberSigned"
             android:textColor="@color/text_primary"
@@ -51,6 +54,7 @@
             android:id="@+id/cbDirection"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:text="@string/checkbox_c_to_f"
             android:checked="true"
             android:textColor="@color/text_primary"

@@ -20,13 +20,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Находим элементы по id
         etTemperature = findViewById(R.id.etTemperature)
         cbDirection = findViewById(R.id.cbDirection)
         tvResult = findViewById(R.id.tvResult)
         tvHint = findViewById(R.id.tvHint)
 
-        // Дополнительное событие: при смене CheckBox меняем подсказку
         cbDirection.setOnCheckedChangeListener { _, isChecked ->
             tvHint.text = if (isChecked) {
                 getString(R.string.hint_c)
@@ -36,7 +34,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // Логика расчета
     private fun calculateResult(value: Double, isCtoF: Boolean): Double {
         return if (isCtoF) {
             value * 9 / 5 + 32
@@ -45,7 +42,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // Проверка ввода (обработка ошибок)
     private fun getValidatedInput(): Double? {
         val input = etTemperature.text.toString().trim()
         if (input.isEmpty()) {
@@ -72,7 +68,6 @@ class MainActivity : AppCompatActivity() {
         return value
     }
 
-    // Обработчик для кнопки "Рассчитать" (вызывается из XML)
     fun onCalculateClick(view: View) {
         val value = getValidatedInput() ?: return
         val isCtoF = cbDirection.isChecked
@@ -82,13 +77,11 @@ class MainActivity : AppCompatActivity() {
         tvResult.text = getString(R.string.result_format, result, unit)
     }
 
-    // Обработчик для кнопки "Далее" (вызывается из XML)
     fun onNextClick(view: View) {
         val value = getValidatedInput() ?: return
         val isCtoF = cbDirection.isChecked
         val result = calculateResult(value, isCtoF)
 
-        // Передаем данные на второй экран
         val intent = Intent(this, SecondActivity::class.java)
         intent.putExtra(SecondActivity.EXTRA_ORIGINAL, value)
         intent.putExtra(SecondActivity.EXTRA_RESULT, result)

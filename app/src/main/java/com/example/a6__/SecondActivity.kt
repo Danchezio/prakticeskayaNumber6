@@ -18,12 +18,10 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        // Получаем данные с первого экрана
         val original = intent.getDoubleExtra(EXTRA_ORIGINAL, 0.0)
         val result = intent.getDoubleExtra(EXTRA_RESULT, 0.0)
         val isCtoF = intent.getBooleanExtra(EXTRA_IS_C_TO_F, true)
 
-        // Определяем единицы измерения
         val originalUnit = if (isCtoF) getString(R.string.unit_c) else getString(R.string.unit_f)
         val resultUnit = if (isCtoF) getString(R.string.unit_f) else getString(R.string.unit_c)
 
@@ -34,12 +32,10 @@ class SecondActivity : AppCompatActivity() {
         tvResultSecond.text = getString(R.string.result_second_format, result, resultUnit)
     }
 
-    // Кнопка "Назад"
     fun onBackClick(view: View) {
         finish()
     }
 
-    // Кнопка "Поделиться" (Неявный Intent)
     fun onShareClick(view: View) {
         val original = intent.getDoubleExtra(EXTRA_ORIGINAL, 0.0)
         val result = intent.getDoubleExtra(EXTRA_RESULT, 0.0)
