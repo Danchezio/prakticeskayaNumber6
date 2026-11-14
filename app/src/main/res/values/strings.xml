@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Калькулятор скидки</string>
+    <string name="title_main">Калькулятор скидки</string>
+    <string name="hint_price">Цена (руб.)</string>
+    <string name="hint_discount">Скидка (%)</string>
+    <string name="btn_calculate">Рассчитать</string>
+    <string name="btn_next">Далее</string>
+    <string name="btn_back">Назад</string>
+
+    <string name="result_format">Новая цена: %.2f руб.\nЭкономия: %.2f руб.</string>
+    <string name="original_format">Начальная цена: %.2f руб.</string>
+    <string name="new_price_format">Новая цена: %.2f руб.</string>
+    <string name="discount_format">Ваша скидка: %.1f%%</string>
+
+    <string name="error_empty_price">Введите цену</string>
+    <string name="error_invalid_price">Некорректная цена</string>
+    <string name="error_price_range">Цена должна быть больше 0</string>
+    <string name="error_empty_discount">Введите скидку</string>
+    <string name="error_invalid_discount">Некорректная скидка</string>
+    <string name="error_discount_range">Скидка должна быть от 0 до 100</string>
+
+    <string name="cd_sale_image">Иллюстрация скидки</string>
+    <string name="cd_result_icon">Иконка результата</string>
+
+    <plurals name="rubles">
+        <item quantity="one">%d рубль</item>
+        <item quantity="few">%d рубля</item>
+        <item quantity="many">%d рублей</item>
+        <item quantity="other">%d рубля</item>
+    </plurals>
+</resources>

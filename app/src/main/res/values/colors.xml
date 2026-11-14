@@ -1,0 +1,8 @@
+<resources>
+    <color name="background">#FFFFFF</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#666666</color>
+    <color name="accent">#6200EE</color>
+    <color name="badge_bg">#FFC107</color>
+    <color name="badge_text">#000000</color>
+</resources>
