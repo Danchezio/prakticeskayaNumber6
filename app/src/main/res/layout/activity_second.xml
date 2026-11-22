@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_screen">
+
+    <TextView
+        android:id="@+id/tvSecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_second"
+        android:textSize="@dimen/text_title"
+        android:textStyle="bold" />
+
+    <!-- Значок результата -->
+    <ImageView
+        android:id="@+id/ivResult"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/second_image_height"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:contentDescription="@string/desc_result_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_task" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:textSize="@dimen/text_body" />
+
+    <TextView
+        android:id="@+id/tvPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:textSize="@dimen/text_body" />
+
+    <TextView
+        android:id="@+id/tvUrgent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:textSize="@dimen/text_body" />
+
+    <!-- Кнопка «Назад»: вызывает onBackClick из SecondActivity -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:background="@drawable/bg_button"
+        android:onClick="onBackClick"
+        android:text="@string/btn_back"
+        android:textColor="@color/button_text"
+        app:backgroundTint="@null" />
+
+</LinearLayout>
