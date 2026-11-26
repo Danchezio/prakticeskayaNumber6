@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PPr6</string>
+    <string name="next">Далее</string>
+    <string name="calc">Рассчитать</string>
+    <string name="inMeters">Длина в метрах</string>
+    <string name="share">Поделиться результатом</string>
+</resources>
