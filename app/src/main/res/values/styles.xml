@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextTitle">
+        <!-- Размер шрифта -->
+        <item name="android:textSize">16pt</item>
+        <!-- Жирный шрифт -->
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button">
+        <!-- Размер шрифта -->
+        <item name="android:textSize">8pt</item>
+        <!-- Жирный шрифт -->
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>
