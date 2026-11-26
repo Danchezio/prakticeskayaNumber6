@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PetAge</string>
+    <string name="title_main">Возраст питомца</string>
+    <string name="title_second">Результат расчёта</string>
+    <string name="name_label">Кличка:</string>
+    <string name="name_hint">Введите кличку</string>
+    <string name="age_label">Возраст (лет):</string>
+    <string name="age_hint">От 0 до 30</string>
+    <string name="species_label">Вид животного:</string>
+    <string name="species_hint">Например, собака</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="next">Далее</string>
+    <string name="share">Поделиться результатом</string>
+    <string name="back">Назад</string>
+    <string name="pet_image_desc">Изображение питомца</string>
+    <string name="result_text">Возраст %1$s в человеческих годах: %2$d</string>
+    <string name="pet_name_text">Питомец: %1$s</string>
+    <string name="human_age_text">Возраст в человеческих годах: %1$s</string>
+    <string name="share_message">У %1$s человеческий возраст — %2$s!</string>
+    <string name="share_chooser">Поделиться через</string>
+    <string name="error_name">Введите кличку животного</string>
+    <string name="error_species">Введите вид животного</string>
+    <string name="error_empty_age">Введите возраст</string>
+    <string name="error_age_range">Возраст должен быть от 0 до 30</string>
+    <string name="error_age_number">Введите целое число</string>
+    <string name="error_age">Проверьте возраст животного</string>
+    <plurals name="human_years">
+        <item quantity="one">%d год</item>
+        <item quantity="few">%d года</item>
+        <item quantity="many">%d лет</item>
+        <item quantity="other">%d года</item>
+    </plurals>
+</resources>
